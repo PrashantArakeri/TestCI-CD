@@ -19,6 +19,6 @@ jobs:
       id: test_suite
       with:
         PACE_API_KEY: ${{secrets.PACE_API_KEY}}
-        suite_id: 11865
-        project_id: 12172
+        suite_id: 14474
+        project_id: 11503
 
