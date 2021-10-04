@@ -18,7 +18,7 @@ jobs:
       uses: ${{secrets.URL}}
       id: test_suite
       with:
-        PACE_API_KEY: ${{secrets.PACE_API_KEY}}
+        access_token: ${{secrets.ACCESS_TOKEN}}
         suite_id: 12650
         project_id: 11503
 
