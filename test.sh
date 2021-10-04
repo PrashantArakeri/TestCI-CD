@@ -21,8 +21,6 @@ while [ "${STATUS}" == '"executing"' ]; do
 done
 echo " done!"
 FAILURES=$(echo ${RESULTS} | grep -Po '"failures":\K[0-9]+')
-if(failures>=2)
-exit -1
 LOG_REPORT_URL=$(echo "${RESULTS}" | grep -Po '"logReportUrl": *\K"[^"]*"')
 echo "Report URL: ${LOG_REPORT_URL}"
 
