@@ -1,6 +1,6 @@
 
 
-name: CRT CI-CD with Git Hub Actions
+name: CRT CI-CD with Git Hub Actions for POC
 
 on:
   push:
