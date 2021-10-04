@@ -19,6 +19,6 @@ jobs:
       id: test_suite
       with:
         access_token: ${{secrets.ACCESS_TOKEN}}
-        suite_id: 12650
+        suite_id: 12589
         project_id: 11503
 
